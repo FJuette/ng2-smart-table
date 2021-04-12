@@ -1,4 +1,3 @@
-import { cloneDeep } from 'lodash';
 
 /**
  * Extending object that entered in first argument.
@@ -49,7 +48,7 @@ export const deepExtend = function(...objects: Array<any>): any {
 
         // just clone arrays (and recursive clone objects inside)
       } else if (Array.isArray(val)) {
-        target[key] = cloneDeep(val);
+        target[key] = JSON.parse(JSON.stringify(val));
         return;
 
         // overwrite by new value if source isn't object or array
