@@ -1,3 +1,7 @@
+# [1.8.0](https://github.com/FJuette/ng2-smart-table/compare/v1.7.2...v1.8.0) (2021-04-12)
+
+
+
 ## [1.7.2](https://github.com/yggg/ng2-smart-table/compare/v1.7.1...v1.7.2) (2020-11-12)
 
 
